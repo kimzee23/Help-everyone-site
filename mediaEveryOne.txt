@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .contentOne,
+  .ourServices {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .imageOne img,
+  .imageThree img {
+    max-width: 100%;
+  }
+
+  .servicesText,
+  .imageThree {
+    flex: 1 1 100%;
+  }
+
+  .servicesText {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .contentOne, .ourServices {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imageOne img,
+  .imageThree img {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .servicesText {
+    max-width: 100%;
+    margin: 20px auto;
+  }
+}
